@@ -353,8 +353,8 @@ class CachedVideoPlayerController
         case VideoEventType.bufferingEnd:
           value = value.copyWith(isBuffering: false);
           break;
-        case VideoEventType.isPlayingStateUpdate:
-          break;
+        // case VideoEventType.isPlayingStateUpdate:
+        //   break;
         case VideoEventType.unknown:
           break;
       }
